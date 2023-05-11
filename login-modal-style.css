@@ -1,0 +1,39 @@
+.button-login1 {
+
+    color: white;
+    background-color: #a76732;
+    width: 100px;
+    height: 50px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.button-login1:hover {
+    background-color: #3b0000;
+}
+
+.button-login2 {
+
+    color: white;
+    background-color: #a76732;
+    width: 100px;
+    height: 50px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.button-login2:hover {
+    background-color: #3b0000
+}
+
+.logininput {
+    border-radius: 10px;
+    border-color: #a76732;
+}
+
+.login-title {
+
+    font-weight: 700;
+}

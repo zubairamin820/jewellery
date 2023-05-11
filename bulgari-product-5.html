@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Pascal Imitaion Jewellery</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="..//login-modal-style.css">        <!-- Favicon-->
+    <link rel="icon" href="icon4.png">
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+         <link href="/css/styles.css" rel="stylesheet" />                                <link rel="stylesheet" href="/nav-bar-style.css">                   <link rel="stylesheet" href="/feedback-style.css">                       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .price{
+                font-size: 26px;
+                font-weight: 700;
+            }
+            .thumbnail_images ul{
+            list-style: none;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            margin-top:10px;
+        }
+        .thumbnail_images ul li{
+            margin: 5px;
+            padding: 10px;
+            border: 2px solid #eee;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        .thumbnail_images ul li:hover{
+            border: 2px solid #000;
+        }
+        .main_image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+            height: 400px;
+            width: 100%;
+            overflow: hidden;
+        }
+        </style>
+    </head>
+    <body>
+        <!-- nav-bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        <img src="LOGO WHITE2.jpg" alt="" width="110" height="80" class="logo" >
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="ani navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link1" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown2 dropdown">
+            <a class="nav-link1 responsive-bttn1  dropdown-toggle" href="brand-page.html">
+                  Brands
+                </a>
+                <ul class="ani dropdown1">
+                    <li class="nav-link3"><a href="#" class="nav-link5">1.</a><a class="nav-link2" href="cartier page.html">Cartier</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link5">2.</a><a class="nav-link2" href="tiffany page.html">Tiffany & Co.</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link5">3.</a><a class="nav-link2" href="bvlgari-product-page.html">Bvlgari</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link5">4.</a><a class="nav-link2" href="prada-page.html">Prada</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link5">5.</a><a class="nav-link2" href="gucci page.html">Gucci</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link5">6.</a><a class="nav-link2" href="mejuri-page.html">Mejuri</a></li>
+                  </ul>
+              </li>
+              <p>
+                <a class="nav-link1 responsive-bttn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample">
+                  Brands
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  <ul>
+                    <li class="nav-link3"><a href="#" class="nav-link6">1.</a><a class="nav-link4" href="cartier page.html">Cartier</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link6">2.</a><a class="nav-link4" href="tiffany page.html">Tiffany & Co.</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link6">3.</a><a class="nav-link4" href="bvlgari-product-page.html">Bvlgari</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link6">4.</a><a class="nav-link4" href="prada-page.html">Prada</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link6">5.</a><a class="nav-link4" href="gucci page.html">Gucci</a></li>
+                    <li class="nav-link3"><a href="#" class="nav-link6">6.</a><a class="nav-link4" href="mejuri-page.html">Mejuri</a></li>
+                  </ul>
+                </div>
+              </div>
+          <li class="nav-item dropdown2 dropdown">
+            <a class="nav-link1" href="product-page-1/products-page-1.html">
+                  Products
+                </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link1" href="..//About Us.html">About Us</a>
+          </li>
+        </ul>
+        <ul class="ani navbar-nav login-text">
+          <li class="nav-item">
+            <a class="nav-link1 " href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login / Signup</a>
+          </li>
+        </ul>
+      </div>
+      <!-- <a class="navbar-brand" href="#">Pascal Imitation Jewelry</a>
+      <img src="LOGO WHITE.jpg" alt="" width="70" height="70" class="rounded-circle" > -->
+    </div>
+  </nav>
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border border-white">
+                <h4 class="modal-title login-title" id="staticBackdropLabel">LOGIN</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+
+                    <div class="mb-2">
+
+                        <label for="recipient-name" class="col-form-label">Email</label>
+
+                        <input type="email" placeholder="Enter Your Email" class="form-control logininput"
+                            required id="recipient-name">
+
+                    </div>
+                    <div class="mb-2">
+                        <label for="recipient-name" class="col-form-label">Password</label>
+
+                        <input type="password" placeholder="Your Password" class="form-control logininput" required
+                            id="recipient-name">
+                    </div>
+                    <div class="checkboss">
+                        <input type="checkbox" id="check">
+                        <label for="check">Remember Me</label>
+                    </div>
+                    <div class="modal-footer border border-white">
+
+                        <p>Not a member?</p>
+                        <a href="Sign up modal.html" class="text-secondary" data-bs-toggle="modal" data-bs-target="#signup">Sign up now</a>
+
+                        <button type="submit" class="button-login2">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header border border-white">
+              <h4 class="modal-title login-title" id="staticBackdropLabel">SIGN UP</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+         <div class="modal-body">
+              <form>
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label">Full Name</label>
+                      <input type="text" placeholder="Your Full Name" class="form-control logininput" required
+                          id="recipient-name">
+                  </div>
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label">Email</label>
+                      <input type="email" placeholder="Enter Your Email" class="form-control logininput"
+                          required id="recipient-name">
+                  </div>
+
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label">Phone Number</label>
+                      <input type="text" placeholder="Your Phone Number" class="form-control logininput" required
+                          id="recipient-name">
+                  </div>
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label">Password</label>
+                      <input type="password" placeholder="Your Password" class="form-control logininput" required
+                          id="recipient-name">
+                  </div>
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label">Confirm Password</label>
+                      <input type="password" placeholder="Confirm Your Password" class="form-control logininput"
+                          required id="recipient-name">
+                  </div>
+                  <div class="modal-footer border border-white">
+                      <button type="submit" class="button-login2">Sign up</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- nav-bar -->            <hr>
+        <!-- <form class="d-flex">
+            <button class="btn btn-outline-dark" type="submit">
+                <i class="bi-cart-fill me-1"></i>
+                Cart
+                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+            </button>
+        </form> -->
+        <!-- Product section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="row gx-4 gx-lg-5 align-items-center">
+                  <div class="col-md-6 border-end">
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="main_image">
+                            <img src="bulgari-product-5-img-1.avif" id="main_product_image" width="100%" >
+                        </div>
+                        <div class="thumbnail_images">
+                        <ul id="thumbnail">
+                            <li><img onclick="changeImage(this)" src="bulgari-product-5-img-1.avif" width="70"></li>
+                            <li><img onclick="changeImage(this)" src="bulgari-product-5-img-2.avif" width="70"></li>
+                            <li><img onclick="changeImage(this)" src="bulgari-product-5-img-3.avif" width="70"></li>
+                            <li><img onclick="changeImage(this)" src="bulgari-product-5-img-4.avif" width="70"></li>
+                        </ul>
+                        </div>	
+                    </div>	
+                </div>
+                    <div class="col-md-6">
+                        <h1 class="display-5 fw-bolder">B.ZERO1 BRACELET</h1>
+                        <div class="mb-4 mt-4">
+                            <!-- <span class="text-decoration-line-through">$45.00</span> -->
+                            <span class="price">$7,350.00</span>
+                        </div>
+                        <p class="lead">B.zero1 bracelet in 18 kt rose gold with matte black ceramic</p>
+                        <p> <b> PRODUCT DETAILS </b> </p>
+                        <p>
+                             Product code : 077322-02531130<br>
+                             Height : 35.6 mm <br>
+                             Width : 25.77 mm<br>
+                             Product Weight : 5.02 gram <br>
+                           </p>
+                            <div class="buttons d-flex flex-row mt-5 gap-3">	
+                                <button class="btn btn-outline-dark">Buy Now</button>	
+                                <button class="btn btn-dark">Add to Cart</button>	
+                            </div>	
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Related items section-->
+        <section class="py-5 bg-light">
+            <div class="container px-4 px-lg-5 mt-5">
+                <h2 class="fw-bolder mb-4">Related products</h2>
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="logo & imgs/cartier product2.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Trinity Earring</h5>
+                                    <!-- Product price-->
+                                    $2,000
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cartier description page-2.html">Buy Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="logo & imgs/cartier product3.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Etincelle De Ring</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through"></span>
+                                    $1,500
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cartier description page-3.html">Buy Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="logo & imgs/cartier product4.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Juste Un Clou Ring</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through"></span>
+                                    $2,400
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cartier description page-4.html">Buy Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="logo & imgs/cartier product5.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Leve Pave Bracelet</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $3,500
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cartier description page-5.html">Buy Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white footer-bg-color">
+  <section class="pt-1 mt-3">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Pascal Imitation Jewelry
+          </h6>
+          <p>
+            Pascal Imitation is an independent family jeweller with over 40 years' experience and expertise in the beautiful world of jewellery.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Brands
+          </h6>
+          <p>
+            <a href="#!" class="brand-text">CARTIER</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text">TIFFANY & CO.</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text">ROLEX</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text">MEJURI</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i>Aptech North Karachi</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              umair25591@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> +923318094994</p>
+          <button type="button" class="feedback-btn mt-3" data-bs-toggle="modal" data-bs-target="#feedback">Your Feedback</button>
+
+        <div class="modal fade" id="feedback" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content text-dark">
+                    <div class="modal-header border border-white">
+                        <h4 class="modal-title login-title" id="staticBackdropLabel">FEEDBACK</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-2">
+                                <label for="recipient-name" class="col-form-label">Full Name</label>
+                                <input type="text" placeholder="Your Full Name" class="form-control logininput" required
+                                    id="recipient-name">
+                            </div>
+                            <div class="mb-2">
+                                <label for="recipient-name" class="col-form-label">Email</label>
+    
+                                <input type="email" placeholder="Your email" class="form-control logininput" required
+                                    id="recipient-name">
+                            </div>
+                            <div class="mb-2">
+                                <label for="recipient-name" class="col-form-label">Would you use our service in the
+                                    future?</label>
+                            </div>
+                            <div class="form-check">
+                                <form>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Yes
+                                    </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                    checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    No
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                    checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Maybe
+                                </label>
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">How can we improve our
+                                    service?</label>
+                                <textarea class="form-control logininput" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                            </div>
+                        </form>
+                        <div class="modal-footer border border-white">
+                            <button type="submit" class="button-login2">Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="fw-bold brand-text" href="#">Pascal Imitation Jewelry.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->               
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+          function changeImage(element) {
+      
+      var main_prodcut_image = document.getElementById('main_product_image');
+      main_prodcut_image.src = element.src;
+      
+      
+      }
+      </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    font-family: "poppins", sans-serif;
+}
+.gallery-img1{
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    height: 300px;
+    width: 300px;
+    transition: 0.5s;
+}
+.gallery-img1:hover {
+    transform: scale(1.1);
+}
+.active1{
+    color: white;
+    background-color: #a76732;
+  }
+  .page-link1{
+    text-decoration: none;
+    padding: 15px;
+    color:#000000;
+    font-family: montserrat,Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 30px;
+    border: 1px solid #a76732;
+    transition: all 0.1s linear;
+}
+.page-link1:hover{
+    color: white;
+    background-color: #a76732;
+}
